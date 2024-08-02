@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {}
+    "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+    "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
         "projectName": "FinancialPlan.Common",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+        "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

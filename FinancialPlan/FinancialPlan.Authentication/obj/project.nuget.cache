@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "COAdHMaK8sg=",
+  "dgSpecHash": "Z+OvDFTTZPo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+  "projectFilePath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.31\\microsoft.aspnetcore.authentication.jwtbearer.6.0.31.nupkg.sha512",

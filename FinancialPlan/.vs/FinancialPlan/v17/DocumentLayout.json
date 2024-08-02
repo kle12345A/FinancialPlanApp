@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "E:\\Financial\\FinancialPlan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\contexts\\financialplandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\contexts\\financialplandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\configs\\annualreportconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\configs\\annualreportconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\configs\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\configs\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\configs\\annualreportdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\configs\\annualreportdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\entities\\annualreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\entities\\annualreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\entities\\annualreportdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\entities\\annualreportdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|e:\\financial\\financialplan\\financialplan.entity\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B459A55-A180-4068-8083-19E087BAAD3E}|FinancialPlan.Entity\\FinancialPlan.Entity.csproj|solutionrelative:financialplan.entity\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +106,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240802091302_init_database.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Migrations\\20240802091302_init_database.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:13:02.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240802091154_init_database.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Migrations\\20240802091154_init_database.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:11:54.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240802090804_update_annualreport0.1.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Migrations\\20240802090804_update_annualreport0.1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:08:04.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FinancialPlanDbContext.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Contexts\\FinancialPlanDbContext.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Contexts\\FinancialPlanDbContext.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Contexts\\FinancialPlanDbContext.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Contexts\\FinancialPlanDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:06:58.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentConfig.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\DepartmentConfig.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Configs\\DepartmentConfig.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\DepartmentConfig.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Configs\\DepartmentConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:02:58.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnnualReportDetailConfig.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\AnnualReportDetailConfig.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Configs\\AnnualReportDetailConfig.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\AnnualReportDetailConfig.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Configs\\AnnualReportDetailConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:02:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnnualReportConfig.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\AnnualReportConfig.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Configs\\AnnualReportConfig.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Configs\\AnnualReportConfig.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Configs\\AnnualReportConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:00:48.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnnualReportDetail.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\AnnualReportDetail.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Entities\\AnnualReportDetail.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\AnnualReportDetail.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Entities\\AnnualReportDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:59:06.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnnualReport.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\AnnualReport.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Entities\\AnnualReport.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\AnnualReport.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Entities\\AnnualReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:58:33.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "FinancialPlan.Entity\\Entities\\Department.cs",
+              "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\Department.cs",
+              "RelativeToolTip": "FinancialPlan.Entity\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:56:54.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "FinancialPlan.Entity\\Entities\\Base\\BaseEntity.cs",
               "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\Entities\\Base\\BaseEntity.cs",
               "RelativeToolTip": "FinancialPlan.Entity\\Entities\\Base\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T03:52:10.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\appsettings.json",
               "RelativeDocumentMoniker": "FinancialPlan.Entity\\appsettings.json",
@@ -87,60 +257,55 @@
               "RelativeToolTip": "FinancialPlan.Entity\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-02T03:52:06.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T03:52:06.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FinancialPlan.Repository",
+              "DocumentIndex": 12,
+              "Title": "FinancialPlan.Repository.csproj",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
               "RelativeDocumentMoniker": "FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
               "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
               "RelativeToolTip": "FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-02T03:52:04.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T03:52:04.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinancialPlan.WebAPI",
+              "DocumentIndex": 13,
+              "Title": "FinancialPlan.WebAPI.csproj",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
               "RelativeDocumentMoniker": "FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
               "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
               "RelativeToolTip": "FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-02T03:52:02.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T03:52:02.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FinancialPlan.Service",
+              "DocumentIndex": 14,
+              "Title": "FinancialPlan.Service.csproj",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
               "RelativeDocumentMoniker": "FinancialPlan.Service\\FinancialPlan.Service.csproj",
               "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
               "RelativeToolTip": "FinancialPlan.Service\\FinancialPlan.Service.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-02T03:52:01.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T03:52:01.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FinancialPlan.Common",
+              "DocumentIndex": 15,
+              "Title": "FinancialPlan.Common.csproj",
               "DocumentMoniker": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
               "RelativeDocumentMoniker": "FinancialPlan.Common\\FinancialPlan.Common.csproj",
               "ToolTip": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
               "RelativeToolTip": "FinancialPlan.Common\\FinancialPlan.Common.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-02T03:51:58.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T03:51:58.128Z"
             }
           ]
         }

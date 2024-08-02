@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
         "projectName": "FinancialPlan.Authentication",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,21 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
         "projectName": "FinancialPlan.Common",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,7 +94,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,21 +158,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
         "projectName": "FinancialPlan.Entity",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,7 +180,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -249,21 +246,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
         "projectName": "FinancialPlan.Repository",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,21 +268,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
               }
             }
           }
@@ -320,21 +316,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
         "projectName": "FinancialPlan.Service",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -342,24 +338,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
               }
             }
           }
@@ -394,21 +389,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
         "projectName": "FinancialPlan.WebAPI.UnitTest",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -416,7 +411,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -481,21 +475,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj": {
+    "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
         "projectName": "FinancialPlan.WebAPI",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -503,30 +497,29 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
+              "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Project\\FinalcialPlanBE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
               }
             }
           }
@@ -620,7 +613,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

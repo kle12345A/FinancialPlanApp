@@ -2668,11 +2668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+      "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
       "projectName": "FinancialPlan.Entity",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+      "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialApp\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
+      "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

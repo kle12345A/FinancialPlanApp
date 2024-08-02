@@ -29,6 +29,8 @@ namespace FinancialPlan.Entity.Contexts
         public virtual DbSet<Position> Positions { get; set; }
         public virtual DbSet<Term> Terms { get; set; }
         public virtual DbSet<UserRole> UserRoles { get; set; }
+        public virtual DbSet<AnnualReport> AnnualReports { get; set; }
+        public virtual DbSet<AnnualReportDetail> AnnualReportDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

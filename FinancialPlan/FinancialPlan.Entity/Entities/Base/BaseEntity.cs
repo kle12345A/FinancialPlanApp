@@ -8,7 +8,7 @@ namespace FinancialPlan.Entity.Entities.Base
 {
     public abstract class BaseEntity : IBaseEntity
     {
-        public Guid Id { get; set; }
+        public Guid  Id { get; set; }
 
         public bool IsDeleted { get; set; }
 

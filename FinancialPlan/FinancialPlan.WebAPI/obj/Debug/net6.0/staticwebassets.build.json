@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zPH0mS1xcnVUBZbH0LberWoplngTRrWGPl/Bt6plBhY=",
+  "Source": "FinancialPlan.WebAPI",
+  "BasePath": "_content/FinancialPlan.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

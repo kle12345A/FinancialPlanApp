@@ -1,0 +1,15 @@
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Financial.WebAPI.UnitTest.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Financial.WebAPI.UnitTest.pdb
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\obj\Debug\FinancialPlan.WebAPI.UnitTest.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\obj\Debug\FinancialPlan.WebAPI.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\obj\Debug\Financia.9E39D1C9.Up2Date
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\obj\Debug\Financial.WebAPI.UnitTest.dll
+C:\Users\Asus\source\repos\FinancialPlan\Financial.WebAPI.UnitTest\obj\Debug\Financial.WebAPI.UnitTest.pdb

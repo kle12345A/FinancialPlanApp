@@ -6097,11 +6097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
       "projectName": "FinancialPlan.WebAPI",
-      "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\FinancialPlan.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6112,30 +6112,29 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
             },
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj"
             },
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
             },
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Repository\\FinancialPlan.Repository.csproj"
             },
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Service\\FinancialPlan.Service.csproj"
             },
-            "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
-              "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
+            "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
             }
           }
         }
@@ -6144,11 +6143,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6229,7 +6223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

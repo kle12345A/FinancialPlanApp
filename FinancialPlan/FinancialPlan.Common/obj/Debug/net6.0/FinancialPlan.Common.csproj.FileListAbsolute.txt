@@ -36,3 +36,16 @@ E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.C
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.deps.json
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.pdb
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.sourcelink.json
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll

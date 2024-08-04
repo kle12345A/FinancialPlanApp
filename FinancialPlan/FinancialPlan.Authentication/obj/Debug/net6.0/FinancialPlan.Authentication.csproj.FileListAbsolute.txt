@@ -36,3 +36,16 @@ E:\Financial\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\Financi
 E:\Financial\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\refint\FinancialPlan.Authentication.dll
 E:\Financial\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.pdb
 E:\Financial\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\ref\FinancialPlan.Authentication.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\bin\Debug\net6.0\FinancialPlan.Authentication.deps.json
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\bin\Debug\net6.0\FinancialPlan.Authentication.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\bin\Debug\net6.0\FinancialPlan.Authentication.pdb
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.sourcelink.json
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\refint\FinancialPlan.Authentication.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\FinancialPlan.Authentication.pdb
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Authentication\obj\Debug\net6.0\ref\FinancialPlan.Authentication.dll

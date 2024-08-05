@@ -36,3 +36,16 @@ E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.C
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.deps.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.AssemblyReference.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfoInputs.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfo.cs
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.CoreCompileInputs.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.sourcelink.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll

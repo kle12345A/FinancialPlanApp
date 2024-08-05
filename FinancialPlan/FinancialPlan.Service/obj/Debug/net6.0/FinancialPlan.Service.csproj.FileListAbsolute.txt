@@ -93,3 +93,35 @@ E:\Financial\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.
 E:\Financial\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\refint\FinancialPlan.Service.dll
 E:\Financial\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.pdb
 E:\Financial\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\ref\FinancialPlan.Service.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\testhost.exe
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\testhost.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\nunit.engine.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\nunit.engine.api.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\nunit.engine.core.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.WebAPI.UnitTest.deps.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.WebAPI.UnitTest.runtimeconfig.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Service.deps.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Service.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Service.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Authentication.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Entity.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Repository.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.WebAPI.UnitTest.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Authentication.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Entity.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.Repository.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\bin\Debug\net6.0\FinancialPlan.WebAPI.UnitTest.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.csproj.AssemblyReference.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.AssemblyInfoInputs.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.AssemblyInfo.cs
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.csproj.CoreCompileInputs.cache
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.sourcelink.json
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.csproj.CopyComplete
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\refint\FinancialPlan.Service.dll
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\FinancialPlan.Service.pdb
+D:\ASPNET & ANGULAR\ASPNET\ASPNET CORE MVC\FinancialPlan\FinancialPlanApp\FinancialPlan\FinancialPlan.Service\obj\Debug\net6.0\ref\FinancialPlan.Service.dll

@@ -846,19 +846,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\Shouma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+      "projectUniqueName": "D:\\ASPNET & ANGULAR\\ASPNET\\ASPNET CORE MVC\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
       "projectName": "FinancialPlan.Authentication",
-      "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
+      "projectPath": "D:\\ASPNET & ANGULAR\\ASPNET\\ASPNET CORE MVC\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+      "packagesPath": "C:\\Users\\Shouma\\.nuget\\packages\\",
+      "outputPath": "D:\\ASPNET & ANGULAR\\ASPNET\\ASPNET CORE MVC\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shouma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -866,7 +866,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -879,11 +878,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -917,7 +911,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

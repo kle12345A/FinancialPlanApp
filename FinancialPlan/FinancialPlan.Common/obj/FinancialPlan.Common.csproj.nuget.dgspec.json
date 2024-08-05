@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {}
+    "E:\\OJT\\project\\Project\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {}
   },
   "projects": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+    "E:\\OJT\\project\\Project\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectUniqueName": "E:\\OJT\\project\\Project\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
         "projectName": "FinancialPlan.Common",
-        "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+        "projectPath": "E:\\OJT\\project\\Project\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "packagesPath": "C:\\Users\\anhto\\.nuget\\packages\\",
+        "outputPath": "E:\\OJT\\project\\Project\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anhto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

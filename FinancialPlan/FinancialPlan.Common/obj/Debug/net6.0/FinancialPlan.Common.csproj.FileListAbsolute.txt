@@ -36,3 +36,16 @@ E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.C
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
 E:\Financial\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.deps.json
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.dll
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\bin\Debug\net6.0\FinancialPlan.Common.pdb
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.AssemblyReference.cache
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfoInputs.cache
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.AssemblyInfo.cs
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.csproj.CoreCompileInputs.cache
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.sourcelink.json
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.dll
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\refint\FinancialPlan.Common.dll
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\FinancialPlan.Common.pdb
+E:\OJT\project\Project\FinancialPlanApp\FinancialPlan\FinancialPlan.Common\obj\Debug\net6.0\ref\FinancialPlan.Common.dll

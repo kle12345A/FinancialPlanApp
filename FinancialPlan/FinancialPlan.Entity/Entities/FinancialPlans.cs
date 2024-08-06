@@ -1,6 +1,4 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -13,8 +11,6 @@ namespace FinancialPlan.Entity.Entities
         [Required]
         [MaxLength(255)]
         public string Name { get; set; }
-
-
 
         public Guid? DepartmentId { get; set; }
 
@@ -43,7 +39,7 @@ namespace FinancialPlan.Entity.Entities
 
         // Navigation properties
         public virtual Department Department { get; set; }
-        public virtual Term Term { get; set; } // Sửa lỗi tại đây
+        public virtual Term Term { get; set; } 
         public virtual ICollection<Expense> Expenses { get; set; }
         public virtual ICollection<PlanHistory> PlanHistories { get; set; }
     }

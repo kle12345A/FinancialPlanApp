@@ -1,11 +1,10 @@
-
-
 using FinancialPlan.Entity.Contexts;
 using FinancialPlan.Entity.Entities;
 using FinancialPlan.Repository.Infrastructures;
 using FinancialPlan.Service.Service.expense;
 using FinancialPlan.Service.Service.financialplans;
 using FinancialPlan.Service.Service.monthlyexpens;
+using FinancialPlan.Service.Service.annualReport;
 using FinancialPlan.Service.Service.planhistory;
 using FinancialPlan.Service.Service.position;
 using FinancialPlan.Service.Service.reportdetail;
@@ -40,6 +39,7 @@ builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<IExpenseService, ExpenseService>();
 builder.Services.AddScoped<IFinancialPlanService, FinancialPlanService>();
 builder.Services.AddScoped<IMonthlyExpenseReportService, MonthlyExpenseReportService>();
+builder.Services.AddScoped<IAnnualReportService, AnnualReportService>();
 builder.Services.AddScoped<IPlanHistoryService, PlanHistoryService>();
 builder.Services.AddScoped<IPositionService, PositionService>();
 builder.Services.AddScoped<IReportDetailService, ReportDetailService>();

@@ -1,5 +1,4 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
-using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -51,5 +50,4 @@ namespace FinancialPlan.Entity.Entities
         // Navigation properties
         public virtual FinancialPlans FinancialPlan { get; set; }
     }
-
 }

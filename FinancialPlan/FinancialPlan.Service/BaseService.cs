@@ -1,11 +1,5 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
 using FinancialPlan.Repository.Infrastructures;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinancialPlan.Service
 {
@@ -48,13 +42,12 @@ namespace FinancialPlan.Service
                     return false;
 
                 _baseRepository.Delete(entity);
-                await _unitOfWork.SaveChangesAsync(); // Lưu thay đổi xuống cơ sở dữ liệu
+                await _unitOfWork.SaveChangesAsync(); 
 
-                return true; // Trả về true nếu xóa thành công và lưu thành công
+                return true;
             }
             catch (Exception ex)
             {
-                // Log lỗi nếu có
                 Console.WriteLine($"Error deleting entity: {ex.Message}");
                 return false;
             }
@@ -79,8 +72,6 @@ namespace FinancialPlan.Service
             return await _baseRepository.GetAllAsync();
         }
 
-        
-
         public bool Delete(Guid id)
         {
             var entity = _baseRepository.GetByIdAsync(id).Result;
@@ -99,8 +90,5 @@ namespace FinancialPlan.Service
             await _baseRepository.AddRangeAsync(entities);
             return await _unitOfWork.SaveChangesAsync();
         }
-
-
-
     }
 }

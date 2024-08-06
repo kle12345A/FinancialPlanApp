@@ -1,11 +1,6 @@
 ﻿using FinancialPlan.Entity.Contexts;
 using FinancialPlan.Entity.Entities;
 using FinancialPlan.Entity.Entities.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinancialPlan.Repository.Infrastructures
 {
@@ -22,6 +17,7 @@ namespace FinancialPlan.Repository.Infrastructures
         IBaseRepository<Expense> ExpenseRepository { get; }
         IBaseRepository<FinancialPlans> FinancialPlanRepository { get; }
         IBaseRepository<MonthlyExpenseReport> MonthlyExpenseReportRepository { get; }
+        IBaseRepository<AnnualReport> AnnualExpenseReportRepository { get; }
         IBaseRepository<PlanHistory> PlanHistoryRepository { get; }
         IBaseRepository<Position> PositionRepository { get; }
         IBaseRepository<ReportDetail> ReportDetailRepository { get; }

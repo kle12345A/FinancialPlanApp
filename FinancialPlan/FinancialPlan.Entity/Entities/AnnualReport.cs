@@ -1,10 +1,5 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinancialPlan.Entity.Entities
 {
@@ -32,8 +27,6 @@ namespace FinancialPlan.Entity.Entities
         [MaxLength(255)]
         public string Note { get; set; }
 
-        // Navigation properties
         public virtual ICollection<AnnualReportDetail> AnnualReportDetails { get; set; } = new HashSet<AnnualReportDetail>();
     }
-
 }

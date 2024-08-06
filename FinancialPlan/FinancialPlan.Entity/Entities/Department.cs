@@ -1,5 +1,4 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace FinancialPlan.Entity.Entities

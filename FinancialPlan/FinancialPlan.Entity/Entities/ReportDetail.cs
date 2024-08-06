@@ -42,5 +42,4 @@ namespace FinancialPlan.Entity.Entities
         // Navigation properties
         public virtual MonthlyExpenseReport MonthlyExpenseReport { get; set; }
     }
-
 }

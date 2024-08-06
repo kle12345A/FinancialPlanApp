@@ -1,10 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinancialPlan.Entity.Entities
 {
@@ -17,6 +12,5 @@ namespace FinancialPlan.Entity.Entities
         [Required]
         public bool IsActive { get; set; } = true;
         public ICollection<UserRole> UserRoles { get; set; }
-
     }
 }

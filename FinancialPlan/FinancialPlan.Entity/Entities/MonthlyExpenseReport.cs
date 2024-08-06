@@ -1,6 +1,4 @@
 ﻿using FinancialPlan.Entity.Entities.Base;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -48,5 +46,4 @@ namespace FinancialPlan.Entity.Entities
         public virtual ICollection<ReportDetail> ReportDetails { get; set; }
         public virtual ICollection<ReportHistory> ReportHistories { get; set; }
     }
-
 }

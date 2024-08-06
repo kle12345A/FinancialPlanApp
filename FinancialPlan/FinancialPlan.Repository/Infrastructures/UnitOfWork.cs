@@ -1,11 +1,6 @@
 ﻿using FinancialPlan.Entity.Contexts;
 using FinancialPlan.Entity.Entities;
 using FinancialPlan.Entity.Entities.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinancialPlan.Repository.Infrastructures
 {
@@ -17,6 +12,7 @@ namespace FinancialPlan.Repository.Infrastructures
         private IBaseRepository<Expense> _expenseRepository;
         private IBaseRepository<FinancialPlans> _financialPlanRepository;
         private IBaseRepository<MonthlyExpenseReport> _monthlyExpenseReportRepository;
+        private IBaseRepository<AnnualReport> _annualExpenseReportRepository;
         private IBaseRepository<PlanHistory> _planHistoryRepository;
         private IBaseRepository<Position> _positionRepository;
         private IBaseRepository<ReportDetail> _reportDetailRepository;
@@ -42,6 +38,9 @@ namespace FinancialPlan.Repository.Infrastructures
         public IBaseRepository<MonthlyExpenseReport> MonthlyExpenseReportRepository
             => _monthlyExpenseReportRepository ??= new BaseRepository<MonthlyExpenseReport>(_context);
 
+        public IBaseRepository<AnnualReport> AnnualExpenseReportRepository
+            => _annualExpenseReportRepository ??= new BaseRepository<AnnualReport>(_context);
+
         public IBaseRepository<PlanHistory> PlanHistoryRepository
             => _planHistoryRepository ??= new BaseRepository<PlanHistory>(_context);
 
@@ -53,8 +52,6 @@ namespace FinancialPlan.Repository.Infrastructures
 
         public IBaseRepository<ReportHistory> ReportHistoryRepository
             => _reportHistoryRepository ??= new BaseRepository<ReportHistory>(_context);
-
-      
 
         public IBaseRepository<Term> TermRepository
             => _termRepository ??= new BaseRepository<Term>(_context);

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinancialPlan.Service
+﻿namespace FinancialPlan.Service
 {
     public interface IBaseService<T>
     {
@@ -16,6 +9,5 @@ namespace FinancialPlan.Service
         Task<bool> DeleteAsync(T entity);
         Task<T?> GetByIdAsync(Guid id);
         Task<IEnumerable<T>> GetAllAsync();
-
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinancialPlan.Entity.Entities.Base
+﻿namespace FinancialPlan.Entity.Entities.Base
 {
     public interface IBaseEntity
     {

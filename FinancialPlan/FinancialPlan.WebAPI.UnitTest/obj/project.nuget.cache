@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1SWyeIwOXk=",
+  "dgSpecHash": "HSjxg17aqYM=",
   "success": true,
-  "projectFilePath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

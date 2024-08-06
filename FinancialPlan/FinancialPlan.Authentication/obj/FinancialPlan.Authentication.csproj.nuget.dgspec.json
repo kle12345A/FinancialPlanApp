@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {}
   },
   "projects": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
         "projectName": "FinancialPlan.Authentication",
-        "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

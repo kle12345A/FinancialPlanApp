@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {}
   },
   "projects": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
         "projectName": "FinancialPlan.Entity",
-        "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

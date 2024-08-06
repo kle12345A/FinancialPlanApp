@@ -1307,11 +1307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
       "projectName": "FinancialPlan.Common",
-      "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

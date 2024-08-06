@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {}
   },
   "projects": {
-    "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+    "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
         "projectName": "FinancialPlan.WebAPI.UnitTest",
-        "projectPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Financial\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\FinancialPlan\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

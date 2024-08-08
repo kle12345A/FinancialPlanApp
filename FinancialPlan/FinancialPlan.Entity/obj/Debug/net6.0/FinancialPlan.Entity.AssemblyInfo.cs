@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinancialPlan.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b02383f36703bbe37270dbd5f0d2ef85262e3924")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2076c8e220b68b413b90ee68b35919ff9d305d97")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinancialPlan.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinancialPlan.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

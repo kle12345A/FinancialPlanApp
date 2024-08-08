@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FinancialPlan.Entity.Entities
 {
-   public class Role : IdentityRole<Guid>
+    public class Role : IdentityRole<Guid>
     {
         [Required]
         [MaxLength(50)]

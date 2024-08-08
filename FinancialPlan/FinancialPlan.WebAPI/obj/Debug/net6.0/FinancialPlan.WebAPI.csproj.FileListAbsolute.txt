@@ -816,7 +816,6 @@ C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\Financia
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.AssemblyInfoInputs.cache
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.AssemblyInfo.cs
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.sourcelink.json
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
@@ -833,3 +832,8 @@ C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\Financia
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.pdb
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.genruntimeconfig.cache
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\ref\FinancialPlan.WebAPI.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\bin\Debug\net6.0\FinancialPlan.Models.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\bin\Debug\net6.0\FinancialPlan.Models.pdb
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.WebAPI\obj\Debug\net6.0\FinancialPlan.WebAPI.MvcApplicationPartsAssemblyInfo.cs

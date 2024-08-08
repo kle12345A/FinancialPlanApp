@@ -22,97 +22,6 @@ namespace FinancialPlan.Entity.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.AnnualReport", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ReportName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<int>("TotalDepartments")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("TotalExpense")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("TotalTerms")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Year")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AnnualReports", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.AnnualReportDetail", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("AnnualReportId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<decimal>("BiggestExpenditure")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("CostType")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<Guid>("DepartmentId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<decimal>("TotalExpense")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AnnualReportId");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.ToTable("AnnualReportDetails", (string)null);
-                });
-
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Department", b =>
                 {
                     b.Property<Guid>("Id")
@@ -121,97 +30,20 @@ namespace FinancialPlan.Entity.Migrations
 
                     b.Property<string>("DepartmentName")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Departments", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.Expense", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("CostType")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ExpenseName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("ExpenseStatus")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasDefaultValue("New");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Note")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PIC")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                    b.Property<DateTime>("InsertedAt")
+                        .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("PlanId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("ProjectName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("SupplierName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<decimal?>("Total")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("PlanId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Expenses", (string)null);
+                    b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.FinancialPlans", b =>
@@ -220,223 +52,26 @@ namespace FinancialPlan.Entity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("DepartmentId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("FileName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<Guid?>("TermId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UploadedBy")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("UploadedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Version")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.HasIndex("TermId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("FinancialPlans", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.MonthlyExpenseReport", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("DepartmentId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("DueDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Month")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("ReportName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<Guid?>("TermId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("UploadDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UploadedBy")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Version")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DepartmentId");
-
-                    b.HasIndex("TermId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("MonthlyExpenseReports", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.PlanHistory", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("FileName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<Guid?>("PlanId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UploadedBy")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("UploadedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Version")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PlanId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("PlanHistories", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.Position", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("PositionName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Positions", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.ReportDetail", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<int>("Amount")
                         .HasColumnType("int");
 
-                    b.Property<string>("CostType")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                    b.Property<int>("CostType")
+                        .HasColumnType("int");
 
                     b.Property<string>("Expense")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ExpenseStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FileReportName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FinancialPlanName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("InsertedAt")
                         .HasColumnType("datetime2");
@@ -444,30 +79,29 @@ namespace FinancialPlan.Entity.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Note")
+                    b.Property<string>("Notes")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PIC")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectName")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("ReportID")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("SupplierName")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Total")
+                    b.Property<Guid>("TermId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("Total")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("UnitPrice")
@@ -476,64 +110,22 @@ namespace FinancialPlan.Entity.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
+                    b.Property<Guid>("UploadedBy")
                         .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ReportID");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("ReportDetails", (string)null);
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.ReportHistory", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("InsertedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<Guid>("ReportID")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UploadedBy")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("UploadedDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("UploadedFile")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<Guid?>("UserId")
-                        .IsRequired()
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Version")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ReportID");
+                    b.HasIndex("TermId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UploadedBy");
 
-                    b.ToTable("ReportHistories", (string)null);
+                    b.ToTable("FinancialPlans");
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Role", b =>
@@ -569,7 +161,7 @@ namespace FinancialPlan.Entity.Migrations
                         .HasDatabaseName("RoleNameIndex")
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("AspNetRoles", (string)null);
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Term", b =>
@@ -578,10 +170,8 @@ namespace FinancialPlan.Entity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Duration")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
@@ -601,24 +191,19 @@ namespace FinancialPlan.Entity.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasDefaultValue("New");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<string>("TermName")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Terms", (string)null);
+                    b.ToTable("Terms");
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.User", b =>
@@ -632,20 +217,20 @@ namespace FinancialPlan.Entity.Migrations
 
                     b.Property<string>("Address")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateOfBirth")
+                    b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("DepartmentId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -654,8 +239,7 @@ namespace FinancialPlan.Entity.Migrations
 
                     b.Property<string>("FullName")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -673,28 +257,29 @@ namespace FinancialPlan.Entity.Migrations
 
                     b.Property<string>("Notes")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<Guid>("PositionId")
+                    b.Property<int>("Position")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("Role")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -705,7 +290,8 @@ namespace FinancialPlan.Entity.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DepartmentId");
+                    b.HasIndex("DepartmentId")
+                        .IsUnique();
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -715,9 +301,7 @@ namespace FinancialPlan.Entity.Migrations
                         .HasDatabaseName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
-                    b.HasIndex("PositionId");
-
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("AspNetUsers", (string)null);
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.UserRole", b =>
@@ -853,149 +437,21 @@ namespace FinancialPlan.Entity.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.AnnualReportDetail", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.AnnualReport", "AnnualReport")
-                        .WithMany("AnnualReportDetails")
-                        .HasForeignKey("AnnualReportId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("AnnualReport");
-
-                    b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.Expense", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.FinancialPlans", "FinancialPlan")
-                        .WithMany("Expenses")
-                        .HasForeignKey("PlanId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("FinancialPlan");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("FinancialPlan.Entity.Entities.FinancialPlans", b =>
                 {
-                    b.HasOne("FinancialPlan.Entity.Entities.Department", "Department")
-                        .WithMany("FinancialPlans")
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("FinancialPlan.Entity.Entities.Term", "Term")
                         .WithMany("FinancialPlans")
                         .HasForeignKey("TermId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Department");
+                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
+                        .WithMany("FinancialPlans")
+                        .HasForeignKey("UploadedBy")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Term");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.MonthlyExpenseReport", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.Department", "Department")
-                        .WithMany("MonthlyExpenseReports")
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.Term", "Term")
-                        .WithMany("MonthlyExpenseReports")
-                        .HasForeignKey("TermId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Department");
-
-                    b.Navigation("Term");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.PlanHistory", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.FinancialPlans", "FinancialPlan")
-                        .WithMany("PlanHistories")
-                        .HasForeignKey("PlanId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("FinancialPlan");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.ReportDetail", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.MonthlyExpenseReport", "MonthlyExpenseReport")
-                        .WithMany("ReportDetails")
-                        .HasForeignKey("ReportID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("MonthlyExpenseReport");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.ReportHistory", b =>
-                {
-                    b.HasOne("FinancialPlan.Entity.Entities.MonthlyExpenseReport", "MonthlyExpenseReport")
-                        .WithMany("ReportHistories")
-                        .HasForeignKey("ReportID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("MonthlyExpenseReport");
 
                     b.Navigation("User");
                 });
@@ -1003,20 +459,12 @@ namespace FinancialPlan.Entity.Migrations
             modelBuilder.Entity("FinancialPlan.Entity.Entities.User", b =>
                 {
                     b.HasOne("FinancialPlan.Entity.Entities.Department", "Department")
-                        .WithMany("Users")
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("FinancialPlan.Entity.Entities.Position", "Position")
-                        .WithMany()
-                        .HasForeignKey("PositionId")
+                        .WithOne("User")
+                        .HasForeignKey("FinancialPlan.Entity.Entities.User", "DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");
-
-                    b.Navigation("Position");
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.UserRole", b =>
@@ -1089,32 +537,10 @@ namespace FinancialPlan.Entity.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.AnnualReport", b =>
-                {
-                    b.Navigation("AnnualReportDetails");
-                });
-
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Department", b =>
                 {
-                    b.Navigation("FinancialPlans");
-
-                    b.Navigation("MonthlyExpenseReports");
-
-                    b.Navigation("Users");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.FinancialPlans", b =>
-                {
-                    b.Navigation("Expenses");
-
-                    b.Navigation("PlanHistories");
-                });
-
-            modelBuilder.Entity("FinancialPlan.Entity.Entities.MonthlyExpenseReport", b =>
-                {
-                    b.Navigation("ReportDetails");
-
-                    b.Navigation("ReportHistories");
+                    b.Navigation("User")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Role", b =>
@@ -1125,12 +551,12 @@ namespace FinancialPlan.Entity.Migrations
             modelBuilder.Entity("FinancialPlan.Entity.Entities.Term", b =>
                 {
                     b.Navigation("FinancialPlans");
-
-                    b.Navigation("MonthlyExpenseReports");
                 });
 
             modelBuilder.Entity("FinancialPlan.Entity.Entities.User", b =>
                 {
+                    b.Navigation("FinancialPlans");
+
                     b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618

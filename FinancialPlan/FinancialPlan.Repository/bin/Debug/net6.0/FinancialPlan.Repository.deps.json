@@ -10,6 +10,7 @@
         "dependencies": {
           "FinancialPlan.Authentication": "1.0.0",
           "FinancialPlan.Entity": "1.0.0",
+          "FinancialPlan.Models": "1.0.0",
           "FinancialPlan.WebAPI.UnitTest": "1.0.0"
         },
         "runtime": {
@@ -985,6 +986,14 @@
           "FinancialPlan.Entity.dll": {}
         }
       },
+      "FinancialPlan.Models/1.0.0": {
+        "dependencies": {
+          "FinancialPlan.Entity": "1.0.0"
+        },
+        "runtime": {
+          "FinancialPlan.Models.dll": {}
+        }
+      },
       "FinancialPlan.WebAPI.UnitTest/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.5.0",
@@ -1523,6 +1532,11 @@
       "sha512": ""
     },
     "FinancialPlan.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinancialPlan.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

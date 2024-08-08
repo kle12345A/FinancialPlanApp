@@ -1,5 +1,4 @@
-﻿using FinancialPlan.Entity.Entities;
-using FinancialPlan.Service.Service.annualReport;
+﻿using FinancialPlan.Service.Service.financialReport;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinancialPlan.WebAPI.Controllers
@@ -8,29 +7,31 @@ namespace FinancialPlan.WebAPI.Controllers
     [Route("api/[controller]")]
     public class AnnualReportController : ControllerBase
     {
-        private readonly IAnnualReportService _annualReportService;
-        public AnnualReportController(IAnnualReportService annualReportService)
+        private readonly IAnnualReportService _financialReportService;
+
+        public AnnualReportController(IAnnualReportService financialReportService)
         {
-            _annualReportService = annualReportService;
+            _financialReportService = financialReportService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [HttpGet("annual-reports")]
+        public async Task<IActionResult> GetAnnualReports()
         {
-            var reports = await _annualReportService.GetAllAsync();
+            var reports = await _financialReportService.GetAllAnnualReportsAsync();
+            Console.WriteLine(reports);
             return Ok(reports);
         }
 
-        // GET: api/annualreport/{id}
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(Guid id)
+        [HttpGet("annual-reports/{year}")]
+        public async Task<IActionResult> GetAnnualReportsByYear(int year)
         {
-            var report = await _annualReportService.GetByIdAsync(id);
-            if (report == null)
+            var reports = await _financialReportService.GetAnnualReportsByYearAsync(year);
+
+            if (reports == null || !reports.Any())
             {
-                return NotFound();
+                return NotFound("No items match your credentials, please try again.");
             }
-            return Ok(report);
+            return Ok(reports);
         }
     }
 }

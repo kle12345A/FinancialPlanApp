@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.WebAPI", "FinancialPlan.WebAPI\FinancialPlan.WebAPI.csproj", "{CD2B9EA0-D4D3-4D8C-83C2-75049FA3DE98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.WebAPI", "FinancialPlan.WebAPI\FinancialPlan.WebAPI.csproj", "{CD2B9EA0-D4D3-4D8C-83C2-75049FA3DE98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Authentication", "FinancialPlan.Authentication\FinancialPlan.Authentication.csproj", "{0271F9EB-9735-432B-A7E0-AA92F447807A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.Authentication", "FinancialPlan.Authentication\FinancialPlan.Authentication.csproj", "{0271F9EB-9735-432B-A7E0-AA92F447807A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Common", "FinancialPlan.Common\FinancialPlan.Common.csproj", "{04B0A8AF-98CD-44C6-8617-1D2E4C2264DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.Common", "FinancialPlan.Common\FinancialPlan.Common.csproj", "{04B0A8AF-98CD-44C6-8617-1D2E4C2264DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Entity", "FinancialPlan.Entity\FinancialPlan.Entity.csproj", "{9B459A55-A180-4068-8083-19E087BAAD3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.Entity", "FinancialPlan.Entity\FinancialPlan.Entity.csproj", "{9B459A55-A180-4068-8083-19E087BAAD3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Repository", "FinancialPlan.Repository\FinancialPlan.Repository.csproj", "{693FF9A9-BE0F-466F-8418-33BC5F9AD7E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.Repository", "FinancialPlan.Repository\FinancialPlan.Repository.csproj", "{693FF9A9-BE0F-466F-8418-33BC5F9AD7E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Service", "FinancialPlan.Service\FinancialPlan.Service.csproj", "{8FADF7C0-34B2-47E5-B130-7D6462632D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.Service", "FinancialPlan.Service\FinancialPlan.Service.csproj", "{8FADF7C0-34B2-47E5-B130-7D6462632D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.WebAPI.UnitTest", "FinancialPlan.WebAPI.UnitTest\FinancialPlan.WebAPI.UnitTest.csproj", "{3CAD223A-FE25-4907-B1EB-7C4694C3626E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialPlan.WebAPI.UnitTest", "FinancialPlan.WebAPI.UnitTest\FinancialPlan.WebAPI.UnitTest.csproj", "{3CAD223A-FE25-4907-B1EB-7C4694C3626E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialPlan.Models", "FinancialPlan.Models\FinancialPlan.Models.csproj", "{EC79A64C-9B86-4268-8F50-974D96F2E0D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3CAD223A-FE25-4907-B1EB-7C4694C3626E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CAD223A-FE25-4907-B1EB-7C4694C3626E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CAD223A-FE25-4907-B1EB-7C4694C3626E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC79A64C-9B86-4268-8F50-974D96F2E0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC79A64C-9B86-4268-8F50-974D96F2E0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC79A64C-9B86-4268-8F50-974D96F2E0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC79A64C-9B86-4268-8F50-974D96F2E0D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,14 +14,7 @@ namespace FinancialPlan.Repository.Infrastructures
         Task RollbackTransactionAsync();
 
         IBaseRepository<Department> DepartmentRepository { get; }
-        IBaseRepository<Expense> ExpenseRepository { get; }
         IBaseRepository<FinancialPlans> FinancialPlanRepository { get; }
-        IBaseRepository<MonthlyExpenseReport> MonthlyExpenseReportRepository { get; }
-        IBaseRepository<AnnualReport> AnnualExpenseReportRepository { get; }
-        IBaseRepository<PlanHistory> PlanHistoryRepository { get; }
-        IBaseRepository<Position> PositionRepository { get; }
-        IBaseRepository<ReportDetail> ReportDetailRepository { get; }
-        IBaseRepository<ReportHistory> ReportHistoryRepository { get; }
         IBaseRepository<Role> RoleRepository { get; }
         IBaseRepository<Term> TermRepository { get; }
         IBaseRepository<User> UserRepository { get; }

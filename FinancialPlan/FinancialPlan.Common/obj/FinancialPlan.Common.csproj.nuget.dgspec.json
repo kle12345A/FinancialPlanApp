@@ -4,14 +4,14 @@
     "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
-        "projectName": "FinancialPlan.Common",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
+        "projectName": "FinancialPlan.Authentication",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,90 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "projectName": "FinancialPlan.Common",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\FinancialPlan.Common.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Authentication\\FinancialPlan.Authentication.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\FinancialPlan.Models.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\FinancialPlan.Models.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
               "version": "[6.0.31, )"
@@ -63,6 +147,229 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "projectName": "FinancialPlan.Entity",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\FinancialPlan.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\FinancialPlan.Models.csproj",
+        "projectName": "FinancialPlan.Models",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\FinancialPlan.Models.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.Entity\\FinancialPlan.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "projectName": "FinancialPlan.WebAPI.UnitTest",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\FinancialPlan.WebAPI.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Ki 6\\OJT\\Mockup\\BE\\FinancialPlanApp\\FinancialPlan\\FinancialPlan.WebAPI.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [

@@ -117,3 +117,5 @@ C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\Financia
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Repository\obj\Debug\net6.0\refint\FinancialPlan.Repository.dll
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Repository\obj\Debug\net6.0\FinancialPlan.Repository.pdb
 C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Repository\obj\Debug\net6.0\ref\FinancialPlan.Repository.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Repository\bin\Debug\net6.0\FinancialPlan.Models.dll
+C:\Users\Asus\Desktop\Ki 6\OJT\Mockup\BE\FinancialPlanApp\FinancialPlan\FinancialPlan.Repository\bin\Debug\net6.0\FinancialPlan.Models.pdb

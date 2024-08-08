@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinancialPlan.Authentication\FinancialPlan.Authentication.csproj" />
+    <ProjectReference Include="..\FinancialPlan.Common\FinancialPlan.Common.csproj" />
     <ProjectReference Include="..\FinancialPlan.Entity\FinancialPlan.Entity.csproj" />
     <ProjectReference Include="..\FinancialPlan.Repository\FinancialPlan.Repository.csproj" />
     <ProjectReference Include="..\FinancialPlan.WebAPI.UnitTest\FinancialPlan.WebAPI.UnitTest.csproj" />

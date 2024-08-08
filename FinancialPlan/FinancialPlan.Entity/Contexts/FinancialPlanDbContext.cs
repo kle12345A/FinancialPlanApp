@@ -19,18 +19,11 @@ namespace FinancialPlan.Entity.Contexts
         {
 
         }
+
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<FinancialPlans> FinancialPlans { get; set; }
-        public virtual DbSet<Expense> Expenses { get; set; }
-        public virtual DbSet<MonthlyExpenseReport> MonthlyExpenseReports { get; set; }
-        public virtual DbSet<PlanHistory> PlanHistories { get; set; }
-        public virtual DbSet<ReportDetail> ReportDetails { get; set; }
-        public virtual DbSet<ReportHistory> ReportHistories { get; set; }
-        public virtual DbSet<Position> Positions { get; set; }
         public virtual DbSet<Term> Terms { get; set; }
         public virtual DbSet<UserRole> UserRoles { get; set; }
-        public virtual DbSet<AnnualReport> AnnualReports { get; set; }
-        public virtual DbSet<AnnualReportDetail> AnnualReportDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -50,12 +43,11 @@ namespace FinancialPlan.Entity.Contexts
             }
         }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(FinancialPlanDbContext).Assembly);
-            //modelBuilder.SeedData();
+            ///modelBuilder.Initialize();
         }
     }
 }

@@ -1,0 +1,248 @@
+<div class="container-full">
+  <div class="containers">
+    <div class="header-links">
+      <a class="mb-4" routerLink="/monthly-report-list">Monthly Report</a>
+      <a class="mb-4" routerLink="/annual-report">Annual Report</a>
+    </div>
+    <h2>Monthly Report</h2>
+    <p class="text-muted mb-4">Monthly Report > Report List</p>
+
+    <div class="row mb-4">
+      <div class="col">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search" />
+          <span class="input-group-text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle dropdown-button"
+            type="button"
+            id="dropdownMenuButtonDepartment"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="dropdown-text">Department</span>
+            <span class="dropdown-arrow">
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDepartment">
+            <li><a class="dropdown-item" href="#">BU1</a></li>
+            <li><a class="dropdown-item" href="#">BU2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle dropdown-button"
+            type="button"
+            id="dropdownMenuButtonQuarter"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="dropdown-text">Quarter</span>
+            <span class="dropdown-arrow">
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonQuarter">
+            <li><a class="dropdown-item" href="#">Q1</a></li>
+            <li><a class="dropdown-item" href="#">Q2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle dropdown-button"
+            type="button"
+            id="dropdownMenuButtonTerm"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="dropdown-text">Term</span>
+            <span class="dropdown-arrow">
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonTerm">
+            <li><a class="dropdown-item" href="#">September</a></li>
+            <li><a class="dropdown-item" href="#">October</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle dropdown-button"
+            type="button"
+            id="dropdownMenuButtonStatus"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="dropdown-text">Status</span>
+            <span class="dropdown-arrow">
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonStatus">
+            <li><a class="dropdown-item" href="#">New</a></li>
+            <li><a class="dropdown-item" href="#">In Progress</a></li>
+            <li><a class="dropdown-item" href="#">Completed</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col d-flex justify-content-end">
+        <button class="btn btn-secondary">Search</button>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col d-flex justify-content-end">
+        <button routerLink="/import-report-step1" class="btn btn-secondary import-button">Import</button>
+        <button class="btn btn-secondary">Export</button>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th>No.</th>
+            <th>Report</th>
+            <th>Month</th>
+            <th>Term</th>
+            <th>Department</th>
+            <th>Status</th>
+            <th>Version</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="No.">1</td>
+            <td data-label="Report">Buname_MYYYY_Report</td>
+            <td data-label="Month">September 2022</td>
+            <td data-label="Term">September</td>
+            <td data-label="Department">BU2</td>
+            <td data-label="Status">New</td>
+            <td data-label="Version">v.2</td>
+            <td data-label="Action">
+              <button routerLink="/monthly-report-details" class="btn btn-link">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <button
+                class="btn btn-link text-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                (click)="openConfirmationDialog()"
+              >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="No.">2</td>
+            <td data-label="Report">Buname_MYYYY_Report</td>
+            <td data-label="Month">September 2022</td>
+            <td data-label="Term">September</td>
+            <td data-label="Department">BU2</td>
+            <td data-label="Status">New</td>
+            <td data-label="Version">v.2</td>
+            <td data-label="Action">
+              <button routerLink="/monthly-report-details" class="btn btn-link">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <button
+                class="btn btn-link text-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                (click)="openConfirmationDialog()"
+              >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="No.">3</td>
+            <td data-label="Report">Buname_MYYYY_Report</td>
+            <td data-label="Month">September 2022</td>
+            <td data-label="Term">September</td>
+            <td data-label="Department">BU2</td>
+            <td data-label="Status">New</td>
+            <td data-label="Version">v.2</td>
+            <td data-label="Action">
+              <button routerLink="/monthly-report-details" class="btn btn-link">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <button
+                class="btn btn-link text-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                (click)="openConfirmationDialog()"
+              >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="No.">4</td>
+            <td data-label="Report">Buname_MYYYY_Report</td>
+            <td data-label="Month">September 2022</td>
+            <td data-label="Term">September</td>
+            <td data-label="Department">BU2</td>
+            <td data-label="Status">New</td>
+            <td data-label="Version">v.2</td>
+            <td data-label="Action">
+              <button routerLink="/monthly-report-details" class="btn btn-link">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <button
+                class="btn btn-link text-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                (click)="openConfirmationDialog()"
+              >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="No.">5</td>
+            <td data-label="Report">Buname_MYYYY_Report</td>
+            <td data-label="Month">September 2022</td>
+            <td data-label="Term">September</td>
+            <td data-label="Department">BU2</td>
+            <td data-label="Status">New</td>
+            <td data-label="Version">v.2</td>
+            <td data-label="Action">
+              <button routerLink="/monthly-report-details" class="btn btn-link">
+                <i class="fa-regular fa-eye"></i>
+              </button>
+              <button
+                class="btn btn-link text-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                (click)="openConfirmationDialog()"
+              >
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="text-muted d-flex justify-content-end">10/60 rows</div>
+  </div>
+</div>

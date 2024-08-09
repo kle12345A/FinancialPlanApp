@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px; /* Tăng kích thước font cho tiêu đề chính */
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 16px; /* Tăng kích thước font cho phụ đề */
+    color: #666;
+}
+
+.subtitle p {
+    display: inline-block;
+    margin: 0;
+}
+
+.white-box {
+    background-color: #f7f3f3;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 500px;
+}
+
+h2 {
+    font-size: 22px; /* Tăng kích thước font cho tiêu đề phụ */
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.file-input-wrapper {
+    width: 303px;
+    position: relative;
+}
+
+.inline-form {
+    display: flex;
+    align-items: center;
+}
+
+.inline-form label {
+    margin-right: 10px;
+    min-width: 60px; /* Tăng độ rộng của nhãn */
+    font-size: 16px; /* Tăng kích thước font cho nhãn */
+}
+
+.inline-form select {
+    flex-grow: 1;
+    font-size: 16px; /* Tăng kích thước font cho select */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px; /* Tăng kích thước font cho label */
+}
+
+select, input[type="text"] {
+    width: 100%;
+    padding: 10px; /* Tăng padding cho các trường nhập liệu */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    margin-left: 57px;
+    font-size: 16px; /* Tăng kích thước font cho các trường nhập liệu */
+}
+
+.file-info {
+    font-size: 14px; /* Tăng kích thước font cho thông tin tệp */
+    margin-top: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Tăng khoảng cách giữa các nút */
+    margin-top: 50px;
+    padding: 0 20px; /* Điều chỉnh padding để phù hợp với bố cục */
+}
+
+.btn {
+    padding: 6px 12px; /* Tăng padding cho các nút */
+    border: none;
+    cursor: pointer;
+    background-color: #c39696;
+    font-size: 16px; /* Tăng kích thước font cho nút */
+}

@@ -1,0 +1,71 @@
+
+<div class="create-term">
+    <div class="header">
+      <h2>Term Management</h2>
+      <p>
+        <a href="/term-management" style="text-decoration: underline; color:black" >Term List</a> &gt; 
+        <span>Edit Term</span>
+      </p>
+    </div>
+  
+    <form>
+       <div class="start-button">
+        <button type="button" class="start-btn" (click)="openConfirmationDialog()" >Start Term</button>
+       </div> 
+      <div class="form-row">
+        <div class="form-group">
+          <label for="termName">Term name</label>
+          <input type="text" id="termName" placeholder="Term name" />
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration</label>
+          <select id="duration">
+            <option>Monthly</option>
+            <option>Quarterly</option>
+            <option>Half-year</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="startDate">Start date</label>
+          <input type="date" id="startDate" placeholder="DD/MM/YYYY" />
+          <i class="calendar-icon"></i>
+        </div>
+        <div class="form-group">
+          <label for="endDate">End date</label>
+          <input type="date" id="endDate" placeholder="DD/MM/YYYY" />
+          <i class="calendar-icon"></i>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="planDueDate">Plan due date</label>
+          <input type="date" id="planDueDate" placeholder="DD/MM/YYYY" />
+          <i class="calendar-icon"></i>
+        </div>
+        <div class="form-group">
+          <label for="reportDueDate">Report due date</label>
+          <input type="date" id="reportDueDate" placeholder="DD/MM/YYYY" />
+          <i class="calendar-icon"></i>
+        </div>
+      </div>
+  
+      <div class="form-row">
+        <div class="form-group">
+          <label for="status">Status</label>
+          <label id="status" style="max-width: 24%;   font-weight: inherit;"  readonly >          
+           New
+          </label>
+        </div>
+      </div>
+  
+      <div class="form-buttons">
+        <button type="button" class="cancel-btn" (click)="onCancel()">Back</button>
+        <button type="submit" class="submit-btn" (click)="onSubmit()">Submit</button>
+      </div>
+    </form>
+  </div> 
+  

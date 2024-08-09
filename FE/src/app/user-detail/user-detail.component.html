@@ -1,0 +1,33 @@
+<body>
+    <div class="maina">
+        <div class="breadcrumb">
+            <a routerLink="/user-management" routerLinkActive="active">User List</a> > User Details
+        </div>
+        <div class="container">
+            <div class="actions">
+                <button (click)="toggleButtonText()" [ngClass]="buttonText === 'Activate user' ? 'activate' : 'deactivate'">{{ buttonText }}</button>
+            </div>
+            <div class="user-details">
+                <div class="user-info-left">
+                    <p><strong>Username:</strong> HoanNKK</p>
+                    <p><strong>Email:</strong> Hoannkkgmail.com</p>
+                    <p><strong>DOB:</strong> 02/02/1993</p>
+                    <p><strong>Department:</strong> IT</p>
+                    <p><strong>Role:</strong> Accountant</p>
+                    <p><strong>Notes:</strong> N/A</p>
+                </div>
+                <div class="user-info-right">
+                    <p><strong>Full name:</strong> Nguyen Khiem Hoan</p>
+                    <p><strong>Phone Number:</strong> 0912345678</p>
+                    <p><strong>Address:</strong> 120 Kim Nguu, Hai Ba Trung, Hanoi</p>
+                    <p><strong>Position:</strong> Financial Audit Executive</p>
+                    <p><strong>Status:</strong> {{ userStatus }}</p>
+                </div>
+            </div>
+            <div class="actions-bottom">
+                <a class="edit" routerLink="/edit-user" routerLinkActive="active">Edit</a>
+                <a class="cancel" routerLink="/user-management" routerLinkActive="active">Cancel</a>
+            </div>
+        </div>
+    </div>
+</body>

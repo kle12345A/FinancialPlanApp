@@ -31,26 +31,6 @@ namespace FinancialPlan.Repository.Repositories.financialReport
                                      TotalTerm = annualGroup.Select(x => x.fp.TermId).Distinct().Count(),
                                      ReportDetails = new List<ReportDetailDTO>()
                                  }).OrderByDescending(x => x.Year).ToListAsync();
-
-            foreach (var report in reports)
-            {
-                var reportDetails = await (from fp in GetQuery()
-                                           join u in _context.Users on fp.UploadedBy equals u.Id
-                                           join d in _context.Departments on u.DepartmentId equals d.Id into departments
-                                           from department in departments.DefaultIfEmpty()
-                                           where fp.UploadedDate.Year == report.Year
-                                           group new { fp, department } by new { department.DepartmentName, fp.CostType } into detailGroup
-                                           select new ReportDetailDTO
-                                           {
-                                               Department = detailGroup.Key.DepartmentName,
-                                               TotalExpense = detailGroup.Sum(x => x.fp.Total),
-                                               BiggestExpenditure = detailGroup.Max(x => x.fp.Total),
-                                               CostType = detailGroup.Key.CostType.ToString()
-                                           }).OrderBy(dto => dto.Department).ToListAsync(); // Order by DepartmentName alphabetically
-
-                report.ReportDetails = reportDetails;
-            }
-
             return reports;
         }
 
@@ -86,7 +66,7 @@ namespace FinancialPlan.Repository.Repositories.financialReport
                                                TotalExpense = detailGroup.Sum(x => x.fp.Total),
                                                BiggestExpenditure = detailGroup.Max(x => x.fp.Total),
                                                CostType = detailGroup.Key.CostType.ToString()
-                                           }).OrderBy(dto => dto.Department).ToListAsync(); 
+                                           }).OrderBy(dto => dto.Department).ToListAsync();
 
                 report.ReportDetails = reportDetails;
             }

@@ -8,5 +8,6 @@ namespace FinancialPlan.Repository.Repositories.financialReport
     {
         Task<IEnumerable<AnnualReportDTO>> GetAllAnnualReportsAsync();
         Task<IEnumerable<AnnualReportDTO>> GetAnnualReportsByYearAsync(int year);
+        Task<IEnumerable<ReportDetailDTO>> GetAnnualReportDetailsByDepartmentAsync(int year, string departmentName);
     }
 }

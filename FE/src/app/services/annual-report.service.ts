@@ -8,27 +8,36 @@ import { catchError } from 'rxjs/operators';
 })
 export class AnnualReportService {
   private baseUrl = 'https://localhost:7273/api/AnnualReport';
+
   constructor(private http: HttpClient) { }
 
   getAnnualReports(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/annual-reports`).pipe(
+    return this.http.get<any>(`${this.baseUrl}/annual-reports`).pipe(
       catchError(this.handleError)
     );
   }
 
   getAnnualReportsByYear(year: number): Observable<any> {
-    return this.http.get(`${this.baseUrl}/annual-reports/${year}`).pipe(
+    return this.http.get<any>(`${this.baseUrl}/annual-reports/${year}`).pipe(
       catchError(this.handleError)
     );
   }
 
-  private handleError(error: HttpErrorResponse) {
-    let errorMessage = 'Unknown error!';
+  searchReportByDepartment(year: number, departmentName: string): Observable<any> {
+    const url = `${this.baseUrl}/annual-reports/${year}/details?departmentName=${departmentName}`;
+    return this.http.get<any>(url).pipe(
+      catchError(this.handleError)
+    );
+  }
+
+  private handleError(error: HttpErrorResponse): Observable<never> {
+    let errorMessage = 'An unexpected error occurred.';
     if (error.error instanceof ErrorEvent) {
-      errorMessage = `Error: ${error.error.message}`;
+      errorMessage = `Client-side error: ${error.error.message}`;
     } else {
-      errorMessage = `Error Code: ${error.status}\nMessage: ${error.message}`;
+      errorMessage = `Server-side error: ${error.status} - ${error.message}`;
     }
+    console.error(errorMessage);
     return throwError(errorMessage);
   }
 }

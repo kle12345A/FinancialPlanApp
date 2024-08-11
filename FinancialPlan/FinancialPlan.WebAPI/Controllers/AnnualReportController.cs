@@ -18,7 +18,6 @@ namespace FinancialPlan.WebAPI.Controllers
         public async Task<IActionResult> GetAnnualReports()
         {
             var reports = await _financialReportService.GetAllAnnualReportsAsync();
-            Console.WriteLine(reports);
             return Ok(reports);
         }
 
@@ -32,6 +31,18 @@ namespace FinancialPlan.WebAPI.Controllers
                 return NotFound("No items match your credentials, please try again.");
             }
             return Ok(reports);
+        }
+
+        [HttpGet("annual-reports/{year}/details")]
+        public async Task<IActionResult> GetAnnualReportDetailsByDepartment(int year, [FromQuery] string departmentName)
+        {
+            var reportDetails = await _financialReportService.GetAnnualReportDetailsByDepartmentAsync(year, departmentName);
+
+            if (reportDetails == null || !reportDetails.Any())
+            {
+                return NotFound("No items match your credentials, please try again.");
+            }
+            return Ok(reportDetails);
         }
     }
 }

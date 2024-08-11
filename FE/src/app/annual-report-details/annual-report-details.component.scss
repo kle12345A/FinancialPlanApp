@@ -92,18 +92,20 @@ strong {
 
 .search-bar button {
     padding: 5px 15px;
+    background-color: #5a6268;
     border: none;
-    cursor: pointer;
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
 }
 
 .search-bar .search-btn {
-    background-color: #ab9f96;
+    background-color: #5a6268;
 }
 
 .search-bar .export-btn {
-    background-color: #ab9f96;
+    background-color: #5a6268;
     margin-left: auto;
     margin-right: 50px;
 }
@@ -155,6 +157,7 @@ strong {
 
 .pagination p {
     margin-right: 10px;
+    font-size: 18px;
 }
 
 .pagination button {

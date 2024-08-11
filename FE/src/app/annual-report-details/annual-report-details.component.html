@@ -1,28 +1,28 @@
-<div class="annual-report-details-container">
+<div class="annual-report-details-container" *ngFor="let report of reports">
   <div class="header">
     <h2>Annual Report Details</h2>
     <p>
-      <a routerLink="/annual-report">Annual Report List</a> &gt; {{ reports.year }} Report
+      <a routerLink="/annual-report">Annual Report List</a> &gt; {{ report.year }} Report
     </p>
   </div>
 
   <div class="report-content">
     <div class="report-summary">
       <div class="summary-left">
-        <p><strong>Year: {{ reports.year }}</strong></p>
-        <p><strong>Total Terms: {{ reports.totalTerm }}</strong></p>
-        <p><strong>Total Expense: {{ reports.totalExpense | currency:'USD' }}</strong></p>
+        <p><strong>Year: {{ report.year }}</strong></p>
+        <p><strong>Total Terms: {{ report.totalTerm }}</strong></p>
+        <p><strong>Total Expense: {{ report.totalExpense | currencyFormat }}</strong></p>
       </div>
       <div class="summary-right">
-        <p><strong>Created Date: {{ reports.createdDate | date:'dd/MM/yyyy' }}</strong></p>
-        <p><strong>Total Departments: {{ reports.totalDepartment }}</strong></p>
+        <p><strong>Created Date: {{ report.createdDate | date:'dd/MM/yyyy' }}</strong></p>
+        <p><strong>Total Departments: {{ report.totalDepartment }}</strong></p>
       </div>
     </div>
 
     <div class="search-bar">
-      <input type="text" placeholder="Search by department" />
+      <input type="text" placeholder="Search by department" [(ngModel)]="searchByDepartment" />
       <i class="fa fa-search"></i>
-      <button class="search-btn">Search</button>
+      <button (click)="search()">Search</button>
       <button class="export-btn">Export</button>
     </div>
 
@@ -37,11 +37,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let detail of reportDetails; let i = index">
-          <td>{{ i + 1 }}</td>
+        <tr *ngFor="let detail of paginatedReportDetails; let i = index">
+          <td>{{ (currentPage - 1) * itemsPerPage + i + 1 }}</td>
           <td>{{ detail.department }}</td>
-          <td>{{ detail.totalExpense | currency:'USD' }}</td>
-          <td>{{ detail.biggestExpenditure | currency:'USD' }}</td>
+          <td>{{ detail.totalExpense | currencyFormat}}</td>
+          <td>{{ detail.biggestExpenditure | currencyFormat }}</td>
           <td>{{ detail.costType }}</td>
         </tr>
       </tbody>
@@ -51,11 +51,15 @@
       <div class="actions">
         <button class="back-btn" routerLink="/annual-report">Back</button>
       </div>
-      <div class="pagination">
-        <p id="pagination-info">10/60 rows</p>
+      <div class="pagination" *ngIf="reportDetails.length > 0">
+        <p id="pagination-info">{{ currentPage * itemsPerPage > reportDetails.length ? reportDetails.length : currentPage * itemsPerPage }} of {{ reportDetails.length }} rows</p>
         <div>
-          <button id="prev-page"><i class="fa fa-chevron-left"></i></button>
-          <button id="next-page"><i class="fa fa-chevron-right"></i></button>
+          <button id="prev-page" (click)="changePage(-1)" [disabled]="currentPage === 1">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+          <button id="next-page" (click)="changePage(1)" [disabled]="currentPage === Math.ceil(reportDetails.length / itemsPerPage)">
+            <i class="fa fa-chevron-right"></i>
+          </button>
         </div>
       </div>
     </div>

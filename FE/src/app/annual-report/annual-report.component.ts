@@ -10,9 +10,13 @@ import { AnnualReportService } from '../services/annual-report.service';
 export class AnnualReportComponent implements OnInit {
   reports: any[] = [];
   filteredReports: any[] = [];
+  paginatedReports: any[] = [];
   errorMessage: string = '';
-  searchQuery: string = '';
-  totalResults: number = 0; // Thêm thuộc tính này
+  searchByYear: string = '';
+  totalResults: number = 0;
+  itemsPerPage: number = 5;
+  currentPage: number = 1;
+  Math = Math; // Assign Math to a property
 
   constructor(private annualReportService: AnnualReportService, private router: Router) { }
 
@@ -25,7 +29,8 @@ export class AnnualReportComponent implements OnInit {
       (data) => {
         this.reports = data;
         this.filteredReports = data;
-        this.totalResults = data.length; // Khởi tạo với tổng số báo cáo
+        this.totalResults = data.length;
+        this.updatePaginatedReports();
       },
       (error) => this.errorMessage = error
     );
@@ -33,24 +38,43 @@ export class AnnualReportComponent implements OnInit {
 
   search(): void {
     this.filterReports();
+    this.currentPage = 1; // Reset to first page on new search
+    this.updatePaginatedReports();
   }
 
   filterReports(): void {
-    if (!this.searchQuery) {
+    if (!this.searchByYear) {
       this.filteredReports = this.reports;
     } else {
-      const yearQuery = parseInt(this.searchQuery, 10);
+      const yearQuery = parseInt(this.searchByYear, 10);
       this.filteredReports = this.reports.filter(report =>
         report.year === yearQuery
       );
     }
 
-    this.totalResults = this.filteredReports.length; // Cập nhật tổng số kết quả
+    this.totalResults = this.filteredReports.length;
 
     if (this.filteredReports.length === 0) {
       this.errorMessage = 'No items match your credentials, please try again.';
     } else {
       this.errorMessage = '';
+    }
+    
+    this.updatePaginatedReports();
+  }
+
+  updatePaginatedReports(): void {
+    const start = (this.currentPage - 1) * this.itemsPerPage;
+    const end = start + this.itemsPerPage;
+    this.paginatedReports = this.filteredReports.slice(start, end);
+  }
+
+  changePage(increment: number): void {
+    const newPage = this.currentPage + increment;
+    const maxPage = Math.ceil(this.totalResults / this.itemsPerPage);
+    if (newPage > 0 && newPage <= maxPage) {
+      this.currentPage = newPage;
+      this.updatePaginatedReports();
     }
   }
 }

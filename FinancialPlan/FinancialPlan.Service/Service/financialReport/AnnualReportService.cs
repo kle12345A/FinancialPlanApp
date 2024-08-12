@@ -25,9 +25,14 @@ namespace FinancialPlan.Service.Service.financialReport
             return await _annualReportRepository.GetAnnualReportsByYearAsync(year);
         }
 
-        public async Task<IEnumerable<ReportDetailDTO>> GetAnnualReportDetailsByDepartmentAsync(int year, string departmentName)
+        public async Task<IEnumerable<AnnualReportDetailDTO>> GetAnnualReportDetailsByDepartmentAsync(int year, string departmentName)
         {
             return await _annualReportRepository.GetAnnualReportDetailsByDepartmentAsync(year, departmentName);
+        }
+
+        public async Task<byte[]> ExportAnnualExpenseReportAsync(int year)
+        {
+            return await _annualReportRepository.ExportAnnualExpenseReportAsync(year);
         }
     }
 }

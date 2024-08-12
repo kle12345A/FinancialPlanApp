@@ -23,12 +23,19 @@ export class AnnualReportService {
     );
   }
 
-  searchReportByDepartment(year: number, departmentName: string): Observable<any> {
+  getAnnualReportDetailsByDepartment(year: number, departmentName: string): Observable<any> {
     const url = `${this.baseUrl}/annual-reports/${year}/details?departmentName=${departmentName}`;
     return this.http.get<any>(url).pipe(
       catchError(this.handleError)
     );
   }
+
+  exportAnnualExpenseReport(year: number): Observable<Blob> {
+    const url = `${this.baseUrl}/export/${year}`;
+    return this.http.get(url, { responseType: 'blob' }).pipe(
+      catchError(this.handleError)
+    );
+  }  
 
   private handleError(error: HttpErrorResponse): Observable<never> {
     let errorMessage = 'An unexpected error occurred.';

@@ -7,10 +7,10 @@
         public int TotalDepartment { get; set; }
         public DateTime CreatedDate { get; set; }
         public int TotalTerm { get; set; } 
-        public List<ReportDetailDTO> ReportDetails { get; set; }
+        public List<AnnualReportDetailDTO> ReportDetails { get; set; }
     }
 
-    public class ReportDetailDTO
+    public class AnnualReportDetailDTO
     {
         public string Department { get; set; }
         public decimal TotalExpense { get; set; }

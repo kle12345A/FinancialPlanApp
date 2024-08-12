@@ -23,7 +23,7 @@
       <input type="text" placeholder="Search by department" [(ngModel)]="searchByDepartment" />
       <i class="fa fa-search"></i>
       <button (click)="search()">Search</button>
-      <button class="export-btn">Export</button>
+      <button class="export-btn" (click)="export()">Export</button>
     </div>
 
     <table class="report-table">
@@ -40,7 +40,7 @@
         <tr *ngFor="let detail of paginatedReportDetails; let i = index">
           <td>{{ (currentPage - 1) * itemsPerPage + i + 1 }}</td>
           <td>{{ detail.department }}</td>
-          <td>{{ detail.totalExpense | currencyFormat}}</td>
+          <td>{{ detail.totalExpense | currencyFormat }}</td>
           <td>{{ detail.biggestExpenditure | currencyFormat }}</td>
           <td>{{ detail.costType }}</td>
         </tr>

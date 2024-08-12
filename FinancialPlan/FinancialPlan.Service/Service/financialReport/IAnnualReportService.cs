@@ -7,6 +7,7 @@ namespace FinancialPlan.Service.Service.financialReport
     {
         Task<IEnumerable<AnnualReportDTO>> GetAllAnnualReportsAsync();
         Task<IEnumerable<AnnualReportDTO>> GetAnnualReportsByYearAsync(int year);
-        Task<IEnumerable<ReportDetailDTO>> GetAnnualReportDetailsByDepartmentAsync(int year, string departmentName);
+        Task<IEnumerable<AnnualReportDetailDTO>> GetAnnualReportDetailsByDepartmentAsync(int year, string departmentName);
+        Task<byte[]> ExportAnnualExpenseReportAsync(int year);
     }
 }

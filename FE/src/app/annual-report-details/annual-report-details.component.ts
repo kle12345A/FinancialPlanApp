@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AnnualReportService } from '../services/annual-report.service';
+import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-annual-report-details',
@@ -9,10 +10,10 @@ import { AnnualReportService } from '../services/annual-report.service';
 })
 export class AnnualReportDetailsComponent implements OnInit {
   year!: number;
-  reports: any = {}; 
-  reportDetails: any[] = []; 
-  paginatedReportDetails: any[] = []; 
-  originalReportDetails: any[] = []; 
+  reports: any = {};
+  reportDetails: any[] = [];
+  paginatedReportDetails: any[] = [];
+  originalReportDetails: any[] = [];
   searchByDepartment: string = '';
   errorMessage: string = '';
   itemsPerPage: number = 10;
@@ -20,7 +21,7 @@ export class AnnualReportDetailsComponent implements OnInit {
   Math = Math;
 
   constructor(
-    private route: ActivatedRoute, 
+    private route: ActivatedRoute,
     private annualReportService: AnnualReportService,
   ) { }
 
@@ -35,9 +36,9 @@ export class AnnualReportDetailsComponent implements OnInit {
     this.annualReportService.getAnnualReportsByYear(year).subscribe(
       (data) => {
         console.log('Annual Report Data:', data);
-        this.reports = data; 
+        this.reports = data;
         if (Array.isArray(this.reports) && this.reports.length > 0) {
-          this.reportDetails = this.reports[0].reportDetails || []; 
+          this.reportDetails = this.reports[0].reportDetails || [];
           this.originalReportDetails = [...this.reportDetails];
           this.updatePaginatedReportDetails();
         }
@@ -51,7 +52,7 @@ export class AnnualReportDetailsComponent implements OnInit {
 
   search(): void {
     if (this.searchByDepartment.trim()) {
-      this.annualReportService.searchReportByDepartment(this.year, this.searchByDepartment).subscribe(
+      this.annualReportService.getAnnualReportDetailsByDepartment(this.year, this.searchByDepartment).subscribe(
         (data) => {
           console.log('Search Results:', data);
           this.reportDetails = data || [];
@@ -81,5 +82,18 @@ export class AnnualReportDetailsComponent implements OnInit {
       this.currentPage = newPage;
       this.updatePaginatedReportDetails();
     }
+  }
+
+  export(): void {
+    this.annualReportService.exportAnnualExpenseReport(this.year).subscribe(
+      (fileContent: Blob) => {
+        const fileName = `AnnualExpenseReport_${this.year}.xlsx`;
+        saveAs(fileContent, fileName);
+      },
+      (error) => {
+        console.error('Export Error:', error);
+        this.errorMessage = 'Failed to export report.';
+      }
+    );
   }
 }
